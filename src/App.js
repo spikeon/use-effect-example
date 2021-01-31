@@ -5,7 +5,7 @@ import UseEffectExample from './components/use-effect-example/use-effect-example
 import './App.css';
 
 const App = props => {
-  return <UseEffectExample />;
+  return <div className='App'><UseEffectExample /></div>;
 };
 
 export default App;
