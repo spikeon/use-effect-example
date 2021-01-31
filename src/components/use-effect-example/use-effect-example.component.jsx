@@ -32,6 +32,12 @@ const UseEffectExample = () => {
             setUser(resJson[0]);
         }
         fetchFunc();
+        return () => {
+            // Perform cleanup
+            // Runs when component unmounts
+
+
+        }
     }, [searchQuery]);
 
 
